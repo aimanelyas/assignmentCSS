@@ -1,0 +1,174 @@
+div {
+    width: 800px;
+    height: 450px;
+    padding: 0px;
+    border: 0;
+    background-color: #1e1f2f;
+    margin: 0;
+    position: relative;
+}
+
+#smallestBox {
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+    border: 0px solid white;
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+
+#wrappedBox {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border: 0;
+    margin: 0;
+    background-color: #e82c4f;
+    position: absolute;
+    top: 70px; 
+    left: 55px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+h1 {
+    position: relative;
+    font-size: 3em;
+    top: 52px;
+    left: 105px;
+}
+
+h2 {
+    position: absolute;
+    top: 53px;
+    left: 62px;
+
+}
+
+#lorem {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    font-size: 4em;
+}
+
+#neque {
+    position: absolute;
+    bottom: 90px;
+    left: 40px;
+    font-size: 4em;
+}
+
+#min {
+    position: absolute;
+    bottom: 20px;
+    left: 345px;
+    font-size: 2em;
+}
+
+#max {
+    position: absolute;
+    bottom: 20px;
+    left: 85px;
+    font-size: 2em;
+}
+
+#bigWhiteBox {
+    width: 160px;
+    height: 220px;
+    padding: 0px;
+    border: 20px solid white;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+}
+
+#uBox {
+    width: 150px;
+    height: 240px;
+    padding: 0px;
+    border: 30px solid #33264a;
+    border-bottom: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    opacity: 50%;
+}
+
+#lBox {
+    width: 160px;
+    height: 190px;
+    padding: 0px;
+    border: 30px solid #4b546f;
+    border-top: 0;
+    border-right: 0;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 75%;
+}
+
+#smallWhiteBox {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border: 10px solid white;
+    margin: 0;
+    position: absolute;
+    top: 180px;
+    right: 150px;
+}
+
+#redBox {
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    border: 15px solid #f6004b;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    right: 120px;
+}
+
+#blueBox {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border: 10px solid #4f31a6;
+    margin: 0;
+    position: absolute;
+    bottom: 130px;
+    right: 180px;
+}
+
+#whiteCircle {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    bottom: 130px;
+    right: 120px;
+}
+
+.fa-user-group {
+    position: absolute;
+    bottom: 83px;
+    left: 46px;
+}
+
+.fa-clock {
+    position: absolute;
+    bottom: 82px;
+    left: 310px;
+}
